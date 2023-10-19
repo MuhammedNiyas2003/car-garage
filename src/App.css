@@ -1,0 +1,390 @@
+.landing-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      156deg,
+      rgba(2, 2, 2, 0.9136904761904762) 0%,
+      rgba(0, 0, 0, 0.3114495798319328) 100%
+    ),
+    url(https://upload.wikimedia.org/wikipedia/commons/0/07/Dodge_Challenger_SRT8_%282015%29_Hirschaid-20220709-RM-120221.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navigation-container {
+  width: 100%;
+  height: 7vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.myprofile-container {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.lang-container {
+  height: 35px;
+  width: 90px;
+  font-size: 10px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 18px;
+}
+#lang{
+  height: 35px;
+  width: 90px;
+  font-size: 10px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  padding-left:10px ;
+}
+.menu-container {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-container p {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-profile {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7px;
+}
+.logo {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.srt-logo {
+  width: 30px;
+  height: 30px;
+}
+.landing-main {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  padding: 0 50px;
+}
+.landing-main-left,
+.landing-main-right {
+  width: 50%;
+  height: 100%;
+}
+.rent-btn {
+  width: 140px;
+  height: 35px;
+  border-radius: 23px;
+  border: none;
+  color: brown;
+  background-color: blanchedalmond;
+  font-size: 15px;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+}
+.rent-btn:hover {
+  background-color: #030303;
+  color: #fff;
+  cursor: pointer;
+}
+.landing-main-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.landing-main-left h3 {
+  color: white;
+  font-size: 50px;
+}
+.about-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  display: flex;
+}
+.about-left-container {
+  width: 35%;
+  height: 100vh;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-left-container h2 {
+  font-size: 40px;
+}
+.about-right-container {
+  width: 65%;
+  height: 100vh;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+}
+.about-right-left {
+  background-image: url(https://bicemotors.com/static/dealer-13380/Create_a_0-60_page_for_the_Dodge_Challenger_LS_1.png);
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+}
+.about-right-right {
+  height: 400px;
+  width: 400px;
+  margin-left: 20px;
+}
+.about-r-r-top {
+  height: 150px;
+  width: 400px;
+  border: none;
+  border-radius: 25px;
+  background-color: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-r-r-top h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.about-r-r-top p {
+  color: #fff;
+  font-size: 20px;
+}
+.about-r-r-bottom {
+  width: 400px;
+  height: 230px;
+  border-radius: 25px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.about-image {
+  height: 230px;
+  width: 400px;
+}
+.bestoffer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #ffffff;
+}
+.bestoffer-left {
+  background-color: #213224;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 250px;
+  align-items: center;
+}
+.bestoffer-right {
+  background-color: #1d301e;
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+.bestoffer-left h2 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.bestoffer-left p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.day-text {
+  color: rgb(136, 135, 135);
+}
+.car-image {
+  position: absolute;
+  left: -150px;
+  top: 80px;
+}
+.vehicle-list-container {
+  width: 100%;
+  height: 80vh;
+  background-color: #e8e5ce;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+}
+.vehicle-list-top {
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.vehicle-list-top h1 {
+  font-size: 60px;
+  height: 30vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+.vehicle-list-top p {
+  font-size: 15px;
+  height: 30vh;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  padding-left: 10px;
+}
+.vehicle-list-top button {
+  border: none;
+  background-color: antiquewhite;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+.vehicle-list-top button:hover {
+  background-color: #030303;
+  cursor: pointer;
+  color: white;
+}
+.vehicle-list-btn {
+  width: 40%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 150px;
+  padding-right: 50px;
+}
+.vehicle-list-bottom {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+}
+.vehicle-list {
+  height: 230px;
+  width: 230px;
+  background-color: #a8a584;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  border: none;
+  border-radius: 30px;
+  padding: 25px 10px;
+  transition: background-color 0.3s;
+}
+.car-png {
+  height: auto;
+  width: 200px;
+}
+.vehicle-list p {
+  color: #030303;
+  font-weight: 500;
+  font-size: 14px;
+}
+.day {
+  color: #7c807c;
+}
+.vehicle-list:hover {
+  cursor: pointer;
+  background-color: #786060;
+}
+.blog-container {
+  height: 130vh;
+  width: 100%;
+  background-color: #fff;
+}
+.blog-top-container {
+  height: 20vh;
+  width: 100%;
+  padding: 100px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.blog-top-container h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-left: 200px;
+}
+.blog-top-container p {
+  height: auto;
+  width: 250px;
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 50px;
+  color: #7c807c;
+}
+.blog-mid-container {
+  height: 60vh;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  padding: 30px 60px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blog-content {
+  height: 50vh;
+  width: 300px;
+  background-color: #1d301e;
+  border-radius: 20px;
+}
+.blog-bottom-container{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-bottom-container h1{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+}
+.input-box{
+  margin-top: 2vh;
+  height:30px;
+  width: 250px;
+  border: #7c807c 1px solid;
+  border-radius: 5px;
+  padding-left: 3px;   
+  overflow: hidden; 
+  display: flex;
+  justify-content: space-between;
+}
+.email{
+  border: none;
+  height: 28px;
+  width: 180px;
+  outline: none;
+}
+.submit-btn{
+  height: 100%;
+  width:65px;
+  border: none;
+  background-color: rgb(4, 58, 4) ;
+  border-radius: 4px;
+  color: #fff;
+}
+.submit-btn:hover{
+  cursor: pointer;
+  background-color: #213224;
+}
