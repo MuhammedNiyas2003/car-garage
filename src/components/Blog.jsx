@@ -10,9 +10,15 @@ const Blog=()=>{
       </p>
      </div>
      <div className="blog-mid-container">
-      <div className="blog-content"></div>
-      <div className="blog-content"></div>
-      <div className="blog-content"></div>
+      <div className="blog-content" id="image-1">
+        <p>Dodge Motor Company has changed throughout the years from muscle cars to family cars.</p>
+      </div>
+      <div className="blog-content" id="image-2">
+        <p>Few American car brands can match Dodge when it comes to the legendary quality and performance that their vehicles bring</p>
+      </div>
+      <div className="blog-content" id="image-3">
+        <p>Dodge Reliability Rating Breakdown. The Dodge Reliability Rating is 3.5 out of 5.0, which ranks it 19th out of 32 for all car brands.</p>
+      </div>
      </div>
      <div className="blog-bottom-container">
       <h1 className="sub">

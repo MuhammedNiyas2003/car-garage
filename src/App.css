@@ -181,6 +181,7 @@
   height: 100vh;
   display: flex;
   background-color: #ffffff;
+  overflow: hidden;
 }
 .bestoffer-left {
   background-color: #213224;
@@ -221,6 +222,7 @@
   display: flex;
   flex-direction: column;
   padding: 50px 50px;
+  overflow: hidden;
 }
 .vehicle-list-top {
   height: 35vh;
@@ -310,6 +312,7 @@
   height: 130vh;
   width: 100%;
   background-color: #fff;
+  overflow: hidden;
 }
 .blog-top-container {
   height: 20vh;
@@ -346,6 +349,15 @@
   width: 300px;
   background-color: #1d301e;
   border-radius: 20px;
+  transition: opacity 0.3s;
+  overflow: hidden;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  padding: 30px 30px;
+}
+.blog-content:hover{
+  opacity: 0.8;
 }
 .blog-bottom-container{
   margin-top: 10vh;
@@ -387,4 +399,61 @@
 .submit-btn:hover{
   cursor: pointer;
   background-color: #213224;
+}
+#image-1{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSU6u8_-BD41CSmD7EpeTV3QXvJ7b-RitSw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: .2s transform ease-in-out ;
+}
+#image-2{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqux_kkVGnC71KDTzXGPgdrfWbgUWTLo8Ckw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: .2s transform ease-in-out ;
+}
+#image-3{
+  background-image: url(https://krazyhorse.co.uk/cdn/shop/products/IMG_8838_2000x.jpg?v=1658400528);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: .2s transform ease-in-out ;
+}
+#image-1:hover,#image-2:hover,#image-3:hover{
+  transform: scale(.95);
+}
+.blog-content p{
+  font-size: 12px;
+  color: #dcd7d7;
+}
+.footer-container{
+  width: 100%;
+  height: 50vh;
+  background-color: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 30px;
+  overflow: hidden;
+}
+
+/* footer card section */
+
+.footer-card{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-card-contents{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.footer-card-contents p{
+  color: #7c807c;
+  font-size: 12px;
 }

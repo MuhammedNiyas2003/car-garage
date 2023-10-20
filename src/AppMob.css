@@ -1,0 +1,325 @@
+@media (max-width:400px){
+  .landing-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        156deg,
+        rgba(2, 2, 2, 0.9136904761904762) 0%,
+        rgba(0, 0, 0, 0.3114495798319328) 100%
+      ),
+      url(https://w0.peakpx.com/wallpaper/70/184/HD-wallpaper-dodge-charger-car-front-view-black-headlight.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+.navigation-container {
+  width: 100%;
+  height: 7vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.myprofile-container {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.lang-container {
+  height: 15px;
+  width: 30px;
+  font-size: 5px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 18px;
+}
+#lang{
+  height: 15px;
+  width: 30px;
+  font-size: 5px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  padding-left:5px ;
+}
+.menu-container {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-container p {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-profile {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7px;
+}
+.logo {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.srt-logo {
+  width: 10px;
+  height: 10px;
+}
+.landing-main {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  padding: 0 30px;
+}
+.landing-main-left,
+.landing-main-right {
+  width: 50%;
+  height: 100%;
+}
+.rent-btn {
+  width: 60px;
+  height: 20px;
+  border-radius: 23px;
+  border: none;
+  color: brown;
+  background-color: blanchedalmond;
+  font-size: 10px;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+}
+.rent-btn:hover {
+  background-color: #030303;
+  color: #fff;
+  cursor: pointer;
+}
+.landing-main-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.landing-main-left h3 {
+  color: white;
+  font-size: 20px;
+}
+.about-container {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.about-left-container {
+  width: 100%;
+  height: 20vh;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-left-container h2 {
+  font-size: 20px;
+}
+.about-right-container {
+  width: 100%;
+  height: 30vh;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.about-right-left {
+  background-image: url(https://bicemotors.com/static/dealer-13380/Create_a_0-60_page_for_the_Dodge_Challenger_LS_1.png);
+  height: 21vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+}
+.about-right-right {
+  height: 21vh;
+  width: 50%;
+  margin-left: 10px;
+}
+.about-r-r-top {
+  height: 10vh;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  background-color: #030303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-r-r-top h1 {
+  color: #fff;
+  font-size: 20px;
+}
+.about-r-r-top p {
+  color: #fff;
+  font-size: 14px;
+}
+.about-r-r-bottom {
+  width: 100%;
+  height: 10vh;
+  border-radius: 25px;
+  margin-top: 1vh;
+  overflow: hidden;
+}
+.about-image {
+  height: auto;
+  width: 100%;
+}
+.bestoffer-container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.bestoffer-left {
+  background-color: #213224;
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: flex-start;
+  padding:20px 20px;
+}
+.bestoffer-right {
+  background-color: #1d301e;
+  width: 50%;
+  height: 40vh;
+  position: relative;
+}
+.bestoffer-left h2 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.bestoffer-left p {
+  color: #ffffff;
+  font-size: 10px;
+}
+.day-text {
+  color: rgb(136, 135, 135);
+}
+.car-image {
+  position: absolute;
+  left: -80px;
+  top: 50px;
+  width: 250px;
+  height: auto;
+}
+.vehicle-list-container {
+  width: 100%;
+  height: 200vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+.vehicle-list-top {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.vehicle-list-top h1 {
+  font-size: 15px;
+  height: 10vh;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+.vehicle-list-top p {
+  font-size: 6px;
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  padding-left: 10px;
+}
+.vehicle-list-top button {
+  border: none;
+  background-color: antiquewhite;
+  height: 10px;
+  width: 30px;
+  border-radius: 15px;
+  margin-left: 4px;
+  font-size: 4px;
+  display: flex;
+  transition: background-color 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+.vehicle-list-top button:hover {
+  background-color: #030303;
+  cursor: pointer;
+  color: white;
+}
+.vehicle-list-btn {
+  width: 25%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.vehicle-list-bottom {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.vehicle-list {
+  height: 200px;
+  width: 200px;
+  background-color:hwb(0 91% 9%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  border: none;
+  border-radius: 30px;
+  padding: 25px 10px;
+  transition: background-color 0.3s;
+  transition: .2s transform ease-in-out ;
+}
+.car-png {
+  height: auto;
+  width: 150px;
+}
+.vehicle-list p {
+  color: #030303;
+  font-weight: 500;
+  font-size: 14px;
+}
+.day {
+  color: #7c807c;
+}
+.vehicle-list:hover {
+  cursor: pointer;
+  background-color: #817f7f;
+  transform: scale(.95);
+}
+}

@@ -1,3 +1,5 @@
+import logoImg from '../assets/2.png'
+
 const Navbar = ({ aboutRef }) => {
   const goToAbout = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -12,7 +14,7 @@ const Navbar = ({ aboutRef }) => {
         <p>Contacts</p>
       </div>
       <div className="logo">
-        <img src="../2.png" alt="error" className="srt-logo" />
+      <img src={logoImg} alt="error" className="srt-logo" />
       </div>
       <div className="nav-profile">
         <div>

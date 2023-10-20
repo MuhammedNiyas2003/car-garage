@@ -1,3 +1,4 @@
+import image from '../assets/1.png'
 const Bestoffer=()=>{
   return(
     <div className="bestoffer-container">
@@ -8,7 +9,7 @@ const Bestoffer=()=>{
         <button className='rent-btn'>Rent Now</button>
       </div>
       <div className='bestoffer-right'>
-        <img src="../1.png" alt="error" className='car-image'/>
+        <img src={image} alt="error" className='car-image'/>
       </div>
      </div>
   )

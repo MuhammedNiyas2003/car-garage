@@ -1,3 +1,6 @@
+import vehicle1image from '../assets/Challenger.png'
+import vehicle2image from '../assets/Charger.png'
+import vehicle3image from '../assets/hornet.png'
 const Vehiclelist=()=>{
   return(
     <div className='vehicle-list-container'>
@@ -13,27 +16,27 @@ const Vehiclelist=()=>{
         <div className="vehicle-list">
           <p>Dodge Challenger</p>
           <p>$400 <span className="day">/day</span></p>
-          <img src="../challenger.png" alt="erro" className="car-png"/>
+          <img src={vehicle1image} alt="erro" className="car-png"/>
         </div>
         <div className="vehicle-list">
           <p>Dodge Charger</p>
           <p>$400 <span className="day">/day</span></p>
-          <img src="../charger.png" alt="error" className="car-png" />
+          <img src={vehicle2image} alt="error" className="car-png" />
         </div>
         <div className="vehicle-list">
           <p>Dodge Hornet</p>
           <p>$400 <span className="day">/day</span></p>
-          <img src="../hornet.png" alt="error" className="car-png"/>
+          <img src={vehicle3image} alt="error" className="car-png"/>
         </div>
         <div className="vehicle-list">
           <p>Dodge Hornet</p>
           <p>$400 <span className="day">/day</span></p>
-          <img src="../hornet.png" alt="error" className="car-png"/>
+          <img src={vehicle1image} alt="error" className="car-png"/>
         </div>
         <div className="vehicle-list">
           <p>Dodge Hornet</p>
           <p>$400 <span className="day">/day</span></p>
-          <img src="../hornet.png" alt="error" className="car-png"/>
+          <img src={vehicle1image} alt="error" className="car-png"/>
         </div>
       </div>
      </div>
